@@ -12,17 +12,19 @@ body {
     width: 320px;
     object-fit: cover;                  /*crop fit*/
     object-position: top;               /*based of top most*/
-    border-radius: 10px 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;;
 }
 #root {
     display: flex;
     justify-content: center;
     align-content: center;
+    align-items: center;
 
 }
 #Container {
-    width: 320px;
-    height: 780px;
+    max-width: 320px;
+    max-height: 780px;
     background: #1A1B21;
     border-radius: 5%;
 }
@@ -104,7 +106,8 @@ p {
     flex-direction: row;
     /* justify-content:space-evenly; */
     justify-content: center;
-    border-radius: 0 0 20px 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 #social > img, #social > a {

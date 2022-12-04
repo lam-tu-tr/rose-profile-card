@@ -5,7 +5,7 @@ import Linkedin from '/src/assets/Linkedin.png'
 export default function Heading() {
     return (
         <div>
-            <img src="/src/assets/Rose.png" alt='rose' width="320px" id ="rose"/>
+            <img src="./src/assets/Rose.png" alt='rose' width="320px" id ="rose"/>
             <h1>Roseanne Park</h1>
             <h4>Blackpink</h4>
             <h5>Main Vocalist, Lead Dancer</h5>
